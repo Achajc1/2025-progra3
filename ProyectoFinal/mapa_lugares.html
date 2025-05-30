@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a0527f3c043002c0e34c42676dc06b03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a0527f3c043002c0e34c42676dc06b03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a0527f3c043002c0e34c42676dc06b03 = L.map(
+                "map_a0527f3c043002c0e34c42676dc06b03",
+                {
+                    center: [14.6349, -90.5069],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_457e05f580e17a85ba93a9f2cfcbc225 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_457e05f580e17a85ba93a9f2cfcbc225.addTo(map_a0527f3c043002c0e34c42676dc06b03);
+        
+    
+            var marker_ab542c9c225a13b0df07a7990319ffa0 = L.marker(
+                [14.6349, -90.5069],
+                {
+}
+            ).addTo(map_a0527f3c043002c0e34c42676dc06b03);
+        
+    
+        var popup_f3fcb187d653e61c962fecba230d8cea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86d4a7079970fe7a220436d6fb5464a6 = $(`<div id="html_86d4a7079970fe7a220436d6fb5464a6" style="width: 100.0%; height: 100.0%;">Hotel Sol (Hospedaje)</div>`)[0];
+                popup_f3fcb187d653e61c962fecba230d8cea.setContent(html_86d4a7079970fe7a220436d6fb5464a6);
+            
+        
+
+        marker_ab542c9c225a13b0df07a7990319ffa0.bindPopup(popup_f3fcb187d653e61c962fecba230d8cea)
+        ;
+
+        
+    
+    
+            marker_ab542c9c225a13b0df07a7990319ffa0.bindTooltip(
+                `<div>
+                     Hotel Sol
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b936fb2e59549355d2265ea816d71371 = L.marker(
+                [14.6407, -90.5133],
+                {
+}
+            ).addTo(map_a0527f3c043002c0e34c42676dc06b03);
+        
+    
+        var popup_4b143b44edbb0c418d05f06b222d12db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64f953503d0d619c3a529548f8ca1d33 = $(`<div id="html_64f953503d0d619c3a529548f8ca1d33" style="width: 100.0%; height: 100.0%;">Parque Central (Turístico)</div>`)[0];
+                popup_4b143b44edbb0c418d05f06b222d12db.setContent(html_64f953503d0d619c3a529548f8ca1d33);
+            
+        
+
+        marker_b936fb2e59549355d2265ea816d71371.bindPopup(popup_4b143b44edbb0c418d05f06b222d12db)
+        ;
+
+        
+    
+    
+            marker_b936fb2e59549355d2265ea816d71371.bindTooltip(
+                `<div>
+                     Parque Central
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d988c61a3ced834b384c893ef3eb4fce = L.marker(
+                [14.6351, -90.5032],
+                {
+}
+            ).addTo(map_a0527f3c043002c0e34c42676dc06b03);
+        
+    
+        var popup_d4b5db7d6cf9698802d6b73aa9e4c0b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4aba8907bba7046721e511181967bc37 = $(`<div id="html_4aba8907bba7046721e511181967bc37" style="width: 100.0%; height: 100.0%;">Museo del Ferrocarril (Turístico)</div>`)[0];
+                popup_d4b5db7d6cf9698802d6b73aa9e4c0b6.setContent(html_4aba8907bba7046721e511181967bc37);
+            
+        
+
+        marker_d988c61a3ced834b384c893ef3eb4fce.bindPopup(popup_d4b5db7d6cf9698802d6b73aa9e4c0b6)
+        ;
+
+        
+    
+    
+            marker_d988c61a3ced834b384c893ef3eb4fce.bindTooltip(
+                `<div>
+                     Museo del Ferrocarril
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0ecd5dcbe91bcdd21a88518f7a3b5133 = L.marker(
+                [14.6421, -90.5098],
+                {
+}
+            ).addTo(map_a0527f3c043002c0e34c42676dc06b03);
+        
+    
+        var popup_74d737eeb4673208b8ead0ca73b6f495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b8b5d2c47c7d3c23e07cb7ce93bf96 = $(`<div id="html_20b8b5d2c47c7d3c23e07cb7ce93bf96" style="width: 100.0%; height: 100.0%;">Hostal Luna (Hospedaje)</div>`)[0];
+                popup_74d737eeb4673208b8ead0ca73b6f495.setContent(html_20b8b5d2c47c7d3c23e07cb7ce93bf96);
+            
+        
+
+        marker_0ecd5dcbe91bcdd21a88518f7a3b5133.bindPopup(popup_74d737eeb4673208b8ead0ca73b6f495)
+        ;
+
+        
+    
+    
+            marker_0ecd5dcbe91bcdd21a88518f7a3b5133.bindTooltip(
+                `<div>
+                     Hostal Luna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

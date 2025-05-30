@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ca054ed8cd58299ef552692a894ccd1c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ca054ed8cd58299ef552692a894ccd1c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ca054ed8cd58299ef552692a894ccd1c = L.map(
+                "map_ca054ed8cd58299ef552692a894ccd1c",
+                {
+                    center: [14.6070371, -90.5213333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_649892b4a354dfbd94b4a49e8e7fc10f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_649892b4a354dfbd94b4a49e8e7fc10f.addTo(map_ca054ed8cd58299ef552692a894ccd1c);
+        
+    
+            var marker_ab1e03e2d1844c2072e6476ff739e975 = L.marker(
+                [14.6070371, -90.5213333],
+                {
+}
+            ).addTo(map_ca054ed8cd58299ef552692a894ccd1c);
+        
+    
+            var icon_75305045d8951ee27d092c872cc6a16e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a87d0541faad2b478c5e50316491a5b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c609cd48d673de91e33ee88e1253da6 = $(`<div id="html_6c609cd48d673de91e33ee88e1253da6" style="width: 100.0%; height: 100.0%;">Tu ubicación</div>`)[0];
+                popup_a87d0541faad2b478c5e50316491a5b8.setContent(html_6c609cd48d673de91e33ee88e1253da6);
+            
+        
+
+        marker_ab1e03e2d1844c2072e6476ff739e975.bindPopup(popup_a87d0541faad2b478c5e50316491a5b8)
+        ;
+
+        
+    
+    
+                marker_ab1e03e2d1844c2072e6476ff739e975.setIcon(icon_75305045d8951ee27d092c872cc6a16e);
+            
+    
+            var marker_c59f9f507ed973c23b7ac41fb9f506ab = L.marker(
+                [14.622, -90.505],
+                {
+}
+            ).addTo(map_ca054ed8cd58299ef552692a894ccd1c);
+        
+    
+            var icon_6c03050646f6aba660d274bcfe694178 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4fe18ecfca49d30e8758f5fe176b0ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bea7725499991333b8a5aaf63edd4759 = $(`<div id="html_bea7725499991333b8a5aaf63edd4759" style="width: 100.0%; height: 100.0%;">Mirador de Carretera Q0.0 | 1.0 días</div>`)[0];
+                popup_f4fe18ecfca49d30e8758f5fe176b0ec.setContent(html_bea7725499991333b8a5aaf63edd4759);
+            
+        
+
+        marker_c59f9f507ed973c23b7ac41fb9f506ab.bindPopup(popup_f4fe18ecfca49d30e8758f5fe176b0ec)
+        ;
+
+        
+    
+    
+                marker_c59f9f507ed973c23b7ac41fb9f506ab.setIcon(icon_6c03050646f6aba660d274bcfe694178);
+            
+    
+            var marker_a4322368c447338d937412bbbc9480c6 = L.marker(
+                [14.6347, -90.5068],
+                {
+}
+            ).addTo(map_ca054ed8cd58299ef552692a894ccd1c);
+        
+    
+            var icon_dbe1e4e86e79c69332a8064eb8f1023a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b463a886c74696b89106662e0e553c9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_308213f75fdb9704ba9e147f738cf7ea = $(`<div id="html_308213f75fdb9704ba9e147f738cf7ea" style="width: 100.0%; height: 100.0%;">Parque Central Q0.0 | 0.5 días</div>`)[0];
+                popup_b463a886c74696b89106662e0e553c9f.setContent(html_308213f75fdb9704ba9e147f738cf7ea);
+            
+        
+
+        marker_a4322368c447338d937412bbbc9480c6.bindPopup(popup_b463a886c74696b89106662e0e553c9f)
+        ;
+
+        
+    
+    
+                marker_a4322368c447338d937412bbbc9480c6.setIcon(icon_dbe1e4e86e79c69332a8064eb8f1023a);
+            
+</script>
+</html>

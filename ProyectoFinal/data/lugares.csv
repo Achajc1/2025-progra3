@@ -1,0 +1,8 @@
+id,nombre,tipo,latitud,longitud,precio,calificacion,tiempo_estadia
+1,Hotel El Descanso,Hospedaje,14.6349,-90.5069,250,4.5,1
+2,Posada La Paz,Hospedaje,14.6425,-90.5132,180,4.0,1
+3,Parque Central,Turístico,14.6347,-90.5068,0,4.7,0.5
+4,Museo Nacional,Turístico,14.6403,-90.5135,25,4.6,1.5
+5,Zoológico La Aurora,Turístico,14.5833,-90.5275,30,4.3,2
+6,Mirador de Carretera,Turístico,14.6220,-90.5050,0,4.2,1
+
